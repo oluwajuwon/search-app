@@ -1,0 +1,24 @@
+{
+  "name": "search-app",
+  "version": "1.0.0",
+  "description": "a search app built with elastic search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwajuwon/search-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluwajuwon/search-app/issues"
+  },
+  "homepage": "https://github.com/oluwajuwon/search-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "elasticsearch": "^16.6.0",
+    "express": "^4.17.1"
+  }
+}
