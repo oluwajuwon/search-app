@@ -47,6 +47,11 @@ app.get('/', function(req, res){
    });
 })
 
+app.get('/v2', function(req, res){
+  res.sendFile('template2.html', {
+     root: path.join( __dirname, 'views' )
+   });
+})
 // define the /search route that should return elastic search results 
 app.get('/search', function (req, res){
   // declare the query object to search elastic search and return only 200 results from the first result found. 
